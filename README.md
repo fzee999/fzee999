@@ -1,6 +1,6 @@
 # Faraz Ahmad
 
-**Full Stack Java Engineer | Web Developer | Cloud Enthusiast**
+**Full Stack Java Engineer  |  Web Developer  |  Cloud Enthusiast**
 
 ---
 
