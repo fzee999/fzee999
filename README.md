@@ -11,7 +11,7 @@
 ---
 
 ### 🚀 About Me
-Experiences full-stack developer with 6+ years of experience delivering scalable and secure applications. Proficient in Java, Spring, JavaScript frameworks (Angular, React, Node), Python, REST APIs and cloud technologies (AWS, Azure). Specialized in building scalable web applications, cloud deployment, and modern microservices architectures. Passionate about solving complex problems through innovative technology. Holds a master’s in computer science.
+Experiences full-stack developer with 7+ years of experience delivering scalable and secure applications. Proficient in Java, Spring, JavaScript frameworks (Angular, React, Node), Python, REST APIs and cloud technologies (AWS, Azure). Specialized in building scalable web applications, cloud deployment, and modern microservices architectures. Passionate about solving complex problems through innovative technology. Holds a master’s in computer science.
 
 
 ---
