@@ -36,8 +36,8 @@ Experiences full-stack developer with 7+ years of experience delivering scalable
 ---
 
 ### 🎓 Education
-- **M.S. in Computer Science**, Florida State University (2022 – 2024)
-- **B.S. in Computer Science**, University of Delhi (2013 – 2017)
+- **M.S. in Computer Science**, Florida State University
+- **B.S. in Computer Science**, University of Delhi 
 
 ---
 
