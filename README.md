@@ -55,6 +55,7 @@ I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building s
 <br>
 <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=githubcopilot&logoColor=white">
 <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat&logo=anthropic&logoColor=white">
+<img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI Codex"></a>
 <img src="https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white">
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white">
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white">
