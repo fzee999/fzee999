@@ -11,7 +11,7 @@
 
 ### 🚀 About Me
 
-I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building secure, high-availability systems for **banking (JP Morgan, Axis Bank)**, **fintech (ZestMoney)**, and **higher education (Florida State University)**, serving **7M+ customers and 100,000+ users**.
+I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building secure, high-availability systems for **banking**, **fintech**, and **higher education **, serving **7M+ customers and 100,000+ users**.
 
 - ☕ **Backend:** Java 25, Spring Boot, Spring Security, microservices, Kafka, AWS
 - 🎨 **Frontend:** Angular and React with TypeScript
