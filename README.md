@@ -94,7 +94,7 @@ I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building s
 | ⏱️ **[Work Time Tracker](https://github.com/fzee999/Work-time-tracker)** | Browser app that automatically tracks work vs. break time from activity detection, with Chart.js reports, File System Access persistence, and WCAG AA accessibility. | JavaScript, Chart.js |
 | 🌐 **[Network Emulator](https://github.com/fzee999/CNT5505_data_communication)** | Socket-based emulator of Ethernet LANs with self-learning bridges, routers, and stations, showing how packets are forwarded across networks. | Core Java, sockets |
 | ⚙️ **[Compiler Construction](https://github.com/fzee999/cop5621-compiler-construction)** | Compiler built from scratch: lexing and parsing (Lex/Yacc), AST generation, optimization, and x86 code generation. | C |
-| 🔋 **Android Smartphone Battery Usage Prediction** | Machine learning research at Florida State University to predict device battery usage from usage telemetry. | Python, scikit-learn |
+| 🔋 **[Android Smartphone Battery Usage Prediction](https://github.com/cop5611-S24/The-Deadlock-Destroyers)** | Machine learning research at Florida State University to predict device battery usage from usage telemetry. | Python, scikit-learn |
 | 🏠 **Housing Price Prediction Model** | Regression model to predict housing prices from property features. | Python, Jupyter |
 | 🛒 **Enterprise E-commerce Platform** | Full-stack e-commerce platform with secure login (JWT, Spring Security) and CRUD REST APIs. | Spring Boot, Angular, MongoDB |
 
