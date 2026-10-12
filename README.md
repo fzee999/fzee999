@@ -16,7 +16,7 @@ I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building s
 - ☕ **Backend:** Java 25, Spring Boot, Spring Security, microservices, Kafka, AWS
 - 🎨 **Frontend:** Angular and React with TypeScript
 - 🤖 **AI-augmented engineering:** GitHub Copilot, Claude Code, and Cursor in my daily workflow for coding, code review, test generation, and troubleshooting (**~30% faster delivery**), with every AI change checked for correctness, performance, and security
-- 🧠 **GenAI:** building agentic workflows with **LangChain, LangGraph, and RAG**, and researching **LLM security (prompt injection)**
+- 🧠 **GenAI:** building **RAG pipelines and agentic workflows** with **LangChain and LangGraph** (hybrid retrieval, reranking, evaluation-driven), and researching **LLM security** (prompt injection, label-efficient detection)
 - 📈 Track record: **99.99% uptime**, **90% page performance gains**, **25+ secured APIs**, and mentoring engineers in Agile teams
 - 🎓 M.S. in Computer Science, Florida State University
 
@@ -24,8 +24,9 @@ I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building s
 
 ### 🧠 Currently Focused On
 
-- **LLM security:** measuring how well common defenses stop prompt injection ([prompt-injection-lab](https://github.com/fzee999/prompt-injection-lab))
-- **Agentic AI:** multi-step LangGraph agents with tool calling, retrieval, and memory for grounded document Q&A
+- **Agentic AI:** LangGraph agents with question routing, tool calling, plan-and-execute comparisons, and persistent memory for grounded document Q&A ([agentic-doc-assistant](https://github.com/fzee999/agentic-doc-assistant))
+- **Retrieval quality:** hybrid BM25 + vector search with cross-encoder reranking, measured on labelled evals ([rag-knowledge-pipeline](https://github.com/fzee999/rag-knowledge-pipeline))
+- **LLM security:** measuring how well common defenses stop prompt injection ([prompt-injection-lab](https://github.com/fzee999/prompt-injection-lab)), and cutting the labeling cost of injection detectors ([label-efficient-injection-detection](https://github.com/fzee999/label-efficient-injection-detection))
 - **AI-assisted SDLC:** guardrails for reviewing AI-generated code in production Java teams
 - **Modern Java:** Java 21+ features (records, virtual threads) with Spring Boot 3
 
@@ -48,6 +49,7 @@ I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building s
 <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=springsecurity&logoColor=white">
 <img src="https://img.shields.io/badge/Microservices-2F5597?style=flat">
 <img src="https://img.shields.io/badge/REST%20APIs-009688?style=flat">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
 <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white">
 <img src="https://img.shields.io/badge/OAuth2%20%2F%20JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white">
 
@@ -55,12 +57,15 @@ I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building s
 <br>
 <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=githubcopilot&logoColor=white">
 <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat&logo=anthropic&logoColor=white">
-<img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI Codex"></a>
+<img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI Codex">
 <img src="https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white">
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white">
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white">
 <img src="https://img.shields.io/badge/RAG-6A5ACD?style=flat">
+<img src="https://img.shields.io/badge/Chroma-FF6446?style=flat" alt="Chroma">
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black" alt="Hugging Face">
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" alt="Streamlit">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white">
 
 **Frontend**
@@ -90,7 +95,10 @@ I'm a **Senior Java Full-Stack Engineer with 9+ years** of experience building s
 
 | Project | What it is | Stack |
 |---|---|---|
+| 🤖 **[Agentic Document Assistant](https://github.com/fzee999/agentic-doc-assistant)** | LangGraph agent that routes each question, calls retrieval and summarization tools, plans cross-document comparisons, and answers with citations and persistent per-thread memory. Raised answer accuracy from **55% to 91%** (routing **80% → 100%**) on a 15-prompt eval with a local 8B model. | Python, LangGraph, LangChain, Ollama, Streamlit |
+| 🔎 **[RAG Knowledge Retrieval Pipeline](https://github.com/fzee999/rag-knowledge-pipeline)** | Ingests 12 real enterprise policy and security documents (PDF, HTML, Markdown), chunks and embeds them locally, and retrieves with hybrid BM25 + vector search, rank fusion, and cross-encoder reranking. Raised passage-level recall from **0.88 to 1.00** on a labelled eval. | Python, LangChain, Chroma, FastEmbed, BM25, FastAPI |
 | 🛡️ **[Prompt Injection Lab](https://github.com/fzee999/prompt-injection-lab)** | Reproducible experiment that attacks a document-Q&A assistant 45 ways and measures four defenses. Together they cut attack success from **42% to 11%**; the remaining risk is indirect injection hidden in documents. | Python, Llama 3.1, Ollama, LLM security |
+| 🏷️ **[Label-Efficient Injection Detection](https://github.com/fzee999/label-efficient-injection-detection)** | Active learning for prompt-injection detection with a local LLM as an imperfect labeler. With correct labels, uncertainty sampling reaches 99% of full-data F1 with **60 labels instead of 260**; routing only the LLM's low-confidence texts to a human gets there with **27 human labels**. Pre-registered hypotheses, 320 runs, full paper. | Python, scikit-learn, Llama 3.1, Ollama |
 | ⏱️ **[Work Time Tracker](https://github.com/fzee999/Work-time-tracker)** | Browser app that automatically tracks work vs. break time from activity detection, with Chart.js reports, File System Access persistence, and WCAG AA accessibility. | JavaScript, Chart.js |
 | 🌐 **[Network Emulator](https://github.com/fzee999/CNT5505_data_communication)** | Socket-based emulator of Ethernet LANs with self-learning bridges, routers, and stations, showing how packets are forwarded across networks. | Core Java, sockets |
 | ⚙️ **[Compiler Construction](https://github.com/fzee999/cop5621-compiler-construction)** | Compiler built from scratch: lexing and parsing (Lex/Yacc), AST generation, optimization, and x86 code generation. | C |
